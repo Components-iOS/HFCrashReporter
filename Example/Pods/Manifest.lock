@@ -1,0 +1,16 @@
+PODS:
+  - HFCrashReporter (0.1.0)
+
+DEPENDENCIES:
+  - HFCrashReporter (from `../`)
+
+EXTERNAL SOURCES:
+  HFCrashReporter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFCrashReporter: 8930ec99aa953d481ba5419db8efc6695121848b
+
+PODFILE CHECKSUM: ed96f898249a95e26d82eed120b62c508fb6daee
+
+COCOAPODS: 1.16.2
