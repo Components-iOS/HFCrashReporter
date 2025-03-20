@@ -1,6 +1,6 @@
 {
   "name": "HFCrashReporter",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "崩溃日志收集显示上传",
   "description": "崩溃日志收集显示上传",
   "homepage": "https://github.com/Components-iOS",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "liuhongfei": "hongfei_liu@bizconf.cn"
+    "liuhongfei": "13718045729@163.com"
   },
   "source": {
     "git": "https://github.com/Components-iOS/HFCrashReporter.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": null
@@ -29,5 +29,10 @@
     "VALID_ARCHS": "arm64 armv7 x86_64",
     "DEFINES_MODULE": "YES"
   },
-  "vendored_frameworks": "HFCrashReporter/Classes/HFCrashReporter.xcframework"
+  "vendored_frameworks": "HFCrashReporter/Classes/HFCrashReporter.xcframework",
+  "resource_bundles": {
+    "HFCrashReporter": [
+      "HFCrashReporter/Assets/*"
+    ]
+  }
 }

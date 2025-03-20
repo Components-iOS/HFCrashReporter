@@ -1,5 +1,5 @@
 PODS:
-  - HFCrashReporter (0.1.2)
+  - HFCrashReporter (0.1.4)
 
 DEPENDENCIES:
   - HFCrashReporter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFCrashReporter: aec2923a628c18303cf009c66c1cf235ab87b555
+  HFCrashReporter: 4ab481f62a593016b51a45eaaf358982babc6687
 
 PODFILE CHECKSUM: ed96f898249a95e26d82eed120b62c508fb6daee
 

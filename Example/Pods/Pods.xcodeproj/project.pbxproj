@@ -9,71 +9,84 @@
 /* Begin PBXAggregateTarget section */
 		AD19FBA3D0F6CD629422BF5F10C331DD /* HFCrashReporter */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9754D6281763BD2C60D6DDEACCB65A92 /* Build configuration list for PBXAggregateTarget "HFCrashReporter" */;
+			buildConfigurationList = 774B9FF748C894E827AD3F1359A94BD2 /* Build configuration list for PBXAggregateTarget "HFCrashReporter" */;
 			buildPhases = (
-				796550B423CB8C928AFBEE3A38D53CED /* [CP] Copy XCFrameworks */,
+				26DD280F079AA183BA42D79F64B33AC4 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
+				A6FA53CEF505BB4C3193C7A777A4DCA6 /* PBXTargetDependency */,
 			);
 			name = HFCrashReporter;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0478F65990D569DC5539FA7CDC82CDC2 /* Pods-HFCrashReporter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED67F67D9EE3693CCC238EE58E866BE /* Pods-HFCrashReporter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07CCA2D8C8EFA9708F9A8B7C9B958C27 /* Pods-HFCrashReporter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DF0CA4C0D153BB6802C5E94B1009C9 /* Pods-HFCrashReporter_Example-dummy.m */; };
+		0478F65990D569DC5539FA7CDC82CDC2 /* Pods-HFCrashReporter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96ABEDCE7BE3C08381E943F3E67B5FB5 /* Pods-HFCrashReporter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CCA2D8C8EFA9708F9A8B7C9B958C27 /* Pods-HFCrashReporter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57C0628C0A5CA1D5F80820309AC6BF0 /* Pods-HFCrashReporter_Example-dummy.m */; };
 		19685F41E24043E5F02A4EAD568A5498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		5FE4CFB615A2DE5BE746729B6C5ACDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		A0F12B15E8928DDABEA1E37A5574F76B /* Pods-HFCrashReporter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5A5E23D71B6B48CD98FDADAC9D658C /* Pods-HFCrashReporter_Tests-dummy.m */; };
-		FDA19FB5EA0091DA9C67BCC73CC6868F /* Pods-HFCrashReporter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD025F68C8B3A3F61A28C8695174759 /* Pods-HFCrashReporter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A97449D498887F1977EA290F819A38 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1B25C452DED41B71839AD82E2985D1E2 /* PrivacyInfo.xcprivacy */; };
+		A0F12B15E8928DDABEA1E37A5574F76B /* Pods-HFCrashReporter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF34378B047439F7EE6C5456AA664D5D /* Pods-HFCrashReporter_Tests-dummy.m */; };
+		FDA19FB5EA0091DA9C67BCC73CC6868F /* Pods-HFCrashReporter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE05FA5F234494343A9D6466E77E8BB7 /* Pods-HFCrashReporter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06A427A5A5FA1597657BAE3D0EB041A4 /* PBXContainerItemProxy */ = {
+		16340E678EED0F39F48853228B5EE25E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AD19FBA3D0F6CD629422BF5F10C331DD;
 			remoteInfo = HFCrashReporter;
 		};
-		61E4C7466E36868AA794C6093A8B163B /* PBXContainerItemProxy */ = {
+		259CE0BA1D51F88AE932060142178547 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FC1A51D59324752F6BF2FD04811DD748;
 			remoteInfo = "Pods-HFCrashReporter_Example";
 		};
+		F9D5B57A92D6AAFB4E15BE347230BC7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D906390974E616FD956F915CF345834;
+			remoteInfo = "HFCrashReporter-HFCrashReporter";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0577A5DF12D34B8316E4C5C30C06FAF9 /* HFCrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFCrashReporter.debug.xcconfig; sourceTree = "<group>"; };
-		0F98F1F1778E43F906D13444582E84E3 /* HFCrashReporter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HFCrashReporter-xcframeworks.sh"; sourceTree = "<group>"; };
-		14F97FDF2F92157FF9A5FD847EC2D6B6 /* Pods-HFCrashReporter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		15A880B45AA3C09F2870E73CA086959F /* Pods-HFCrashReporter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1E592556600AC9D38F110F06969923D6 /* Pods-HFCrashReporter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1ED67F67D9EE3693CCC238EE58E866BE /* Pods-HFCrashReporter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFCrashReporter_Example-umbrella.h"; sourceTree = "<group>"; };
-		24A84F2E754BE97E84E589FC081D6D84 /* Pods-HFCrashReporter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFCrashReporter_Tests.modulemap"; sourceTree = "<group>"; };
-		290CD49553D9033116F8FD2C7C7B9D68 /* Pods-HFCrashReporter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFCrashReporter_Example.modulemap"; sourceTree = "<group>"; };
-		2C268B71C7764119B2AD4A651BC779E8 /* Pods-HFCrashReporter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E662602C9B99C3B1C2AC969FD96D255 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0412C1848DDEC0F0E59CD99C08157023 /* Pods-HFCrashReporter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCrashReporter_Example-resources.sh"; sourceTree = "<group>"; };
+		084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFCrashReporter.debug.xcconfig; sourceTree = "<group>"; };
+		0E633EE51FF736833BF323C7C0DD7763 /* Pods-HFCrashReporter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Tests-Info.plist"; sourceTree = "<group>"; };
+		1B25C452DED41B71839AD82E2985D1E2 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HFCrashReporter/Assets/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		214CD0EBA39D0D604C085CF65927F78C /* Pods-HFCrashReporter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		476F16D202E400B375033FC65C3634D5 /* Pods-HFCrashReporter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Tests-Info.plist"; sourceTree = "<group>"; };
-		508643301C12838A0541959A413FB397 /* Pods-HFCrashReporter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Example-Info.plist"; sourceTree = "<group>"; };
-		6420023DA26FD7BAEF863FFEF64FAF4E /* Pods-HFCrashReporter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCrashReporter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6A5A5E23D71B6B48CD98FDADAC9D658C /* Pods-HFCrashReporter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFCrashReporter_Tests-dummy.m"; sourceTree = "<group>"; };
-		76203BAFAA00DEC60401CC1899739F94 /* Pods-HFCrashReporter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		85DF0CA4C0D153BB6802C5E94B1009C9 /* Pods-HFCrashReporter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFCrashReporter_Example-dummy.m"; sourceTree = "<group>"; };
-		8B4F930CF8B9930D216ED1862DCE2368 /* HFCrashReporter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = HFCrashReporter.xcframework; path = HFCrashReporter/Classes/HFCrashReporter.xcframework; sourceTree = "<group>"; };
-		9029672641F79DD82C973D577C0B83B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		49B123241173C8EC1C68E98C9B16BCC1 /* Pods-HFCrashReporter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E7F201B5876D32CCFACB7255EAB6BA5 /* Pods-HFCrashReporter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		523FAB83AEB4BD64FA148033A20447A8 /* Pods-HFCrashReporter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFCrashReporter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5430F8D73776CBE0765348E32C7318E0 /* Pods-HFCrashReporter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B2610527072FD16A2979428A268DB47 /* Pods-HFCrashReporter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Example-Info.plist"; sourceTree = "<group>"; };
+		5E09CF03D67A67FBB87E09F3CBF1BC3C /* Pods-HFCrashReporter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFCrashReporter_Example.modulemap"; sourceTree = "<group>"; };
+		8A28032BD8260C19255F518F75EAE3EB /* Pods-HFCrashReporter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFCrashReporter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		93A5220D4D2AAF5855B90EA1B8FAEEE4 /* Pods-HFCrashReporter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFCrashReporter_Example"; path = Pods_HFCrashReporter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		986D8FE4CBA767278351EF21DE0A262B /* Pods-HFCrashReporter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFCrashReporter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B97F3452C1585EB9CABC16FCD573224 /* HFCrashReporter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFCrashReporter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96ABEDCE7BE3C08381E943F3E67B5FB5 /* Pods-HFCrashReporter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFCrashReporter_Example-umbrella.h"; sourceTree = "<group>"; };
+		9738F6677F31B8ACC1F21AFD57083ABF /* Pods-HFCrashReporter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFCrashReporter_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BFD025F68C8B3A3F61A28C8695174759 /* Pods-HFCrashReporter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFCrashReporter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C72E2EB294B20EDA70D627A233ECB3A8 /* HFCrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFCrashReporter.release.xcconfig; sourceTree = "<group>"; };
+		A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFCrashReporter.release.xcconfig; sourceTree = "<group>"; };
+		AA13B896FE0E768AFEB7FAFF0734C426 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AC18B553B6D75FF8C0D252A3553E4748 /* HFCrashReporter-HFCrashReporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "HFCrashReporter-HFCrashReporter"; path = HFCrashReporter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB8B90A2839385F96D3EE7D06E18819 /* Pods-HFCrashReporter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFCrashReporter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF34378B047439F7EE6C5456AA664D5D /* Pods-HFCrashReporter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFCrashReporter_Tests-dummy.m"; sourceTree = "<group>"; };
+		BFDB78C6CE3E35566FA7133D7DE20E32 /* Pods-HFCrashReporter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFCrashReporter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C21D977AE073C9F9820451A27421F91A /* HFCrashReporter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "HFCrashReporter-xcframeworks.sh"; sourceTree = "<group>"; };
 		CB0F05679BE157AC4C0AFA6756F57301 /* Pods-HFCrashReporter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFCrashReporter_Tests"; path = Pods_HFCrashReporter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC4FA1007ACA61337E7D9AA00B70E32E /* Pods-HFCrashReporter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ECCE1D2AFC6254A2B92652C57F18BF01 /* Pods-HFCrashReporter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFCrashReporter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB78D1EB7686FB0213C83424549028F2 /* Pods-HFCrashReporter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFCrashReporter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFDBC3A8C62707F6954C4050853DDF1E /* HFCrashReporter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = HFCrashReporter.xcframework; path = HFCrashReporter/Classes/HFCrashReporter.xcframework; sourceTree = "<group>"; };
+		E57C0628C0A5CA1D5F80820309AC6BF0 /* Pods-HFCrashReporter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFCrashReporter_Example-dummy.m"; sourceTree = "<group>"; };
+		EB35AFF22CE386485DC0913BB47D04CF /* ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist"; sourceTree = "<group>"; };
+		EE05FA5F234494343A9D6466E77E8BB7 /* Pods-HFCrashReporter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFCrashReporter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F74EF9E50CCFA9DEF28FE7CB730F70C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC992BBB35C078C0EA7EC773F733F75E /* HFCrashReporter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HFCrashReporter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,99 +106,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E61DB185C2BDB538A6F2706B85EED1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02332AB137783B4D44CB5C7D150E0CE8 /* Frameworks */ = {
+		2F7AED6F99C6B3D3E3D465CCC35AD4A0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B4F930CF8B9930D216ED1862DCE2368 /* HFCrashReporter.xcframework */,
+				EEC27EA05D5B8067FA8EBBEEC4345C1F /* HFCrashReporter */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		0E44AB0514CB74703E330210F72CFFB3 /* Products */ = {
+		317B20A063A445C6F5C7C576CB4C06C5 /* Pods-HFCrashReporter_Example */ = {
 			isa = PBXGroup;
 			children = (
+				5E09CF03D67A67FBB87E09F3CBF1BC3C /* Pods-HFCrashReporter_Example.modulemap */,
+				523FAB83AEB4BD64FA148033A20447A8 /* Pods-HFCrashReporter_Example-acknowledgements.markdown */,
+				5430F8D73776CBE0765348E32C7318E0 /* Pods-HFCrashReporter_Example-acknowledgements.plist */,
+				E57C0628C0A5CA1D5F80820309AC6BF0 /* Pods-HFCrashReporter_Example-dummy.m */,
+				8A28032BD8260C19255F518F75EAE3EB /* Pods-HFCrashReporter_Example-frameworks.sh */,
+				5B2610527072FD16A2979428A268DB47 /* Pods-HFCrashReporter_Example-Info.plist */,
+				0412C1848DDEC0F0E59CD99C08157023 /* Pods-HFCrashReporter_Example-resources.sh */,
+				96ABEDCE7BE3C08381E943F3E67B5FB5 /* Pods-HFCrashReporter_Example-umbrella.h */,
+				4E7F201B5876D32CCFACB7255EAB6BA5 /* Pods-HFCrashReporter_Example.debug.xcconfig */,
+				BFDB78C6CE3E35566FA7133D7DE20E32 /* Pods-HFCrashReporter_Example.release.xcconfig */,
+			);
+			name = "Pods-HFCrashReporter_Example";
+			path = "Target Support Files/Pods-HFCrashReporter_Example";
+			sourceTree = "<group>";
+		};
+		48AF0CD29BE3D9F4481595B339E88E07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC18B553B6D75FF8C0D252A3553E4748 /* HFCrashReporter-HFCrashReporter */,
 				93A5220D4D2AAF5855B90EA1B8FAEEE4 /* Pods-HFCrashReporter_Example */,
 				CB0F05679BE157AC4C0AFA6756F57301 /* Pods-HFCrashReporter_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3AFCF84496026212791BF4752AED1F6F /* Pods-HFCrashReporter_Tests */ = {
+		57AA2D4CF7297C822D5107D36CFCF2B9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				24A84F2E754BE97E84E589FC081D6D84 /* Pods-HFCrashReporter_Tests.modulemap */,
-				986D8FE4CBA767278351EF21DE0A262B /* Pods-HFCrashReporter_Tests-acknowledgements.markdown */,
-				14F97FDF2F92157FF9A5FD847EC2D6B6 /* Pods-HFCrashReporter_Tests-acknowledgements.plist */,
-				6A5A5E23D71B6B48CD98FDADAC9D658C /* Pods-HFCrashReporter_Tests-dummy.m */,
-				476F16D202E400B375033FC65C3634D5 /* Pods-HFCrashReporter_Tests-Info.plist */,
-				BFD025F68C8B3A3F61A28C8695174759 /* Pods-HFCrashReporter_Tests-umbrella.h */,
-				1E592556600AC9D38F110F06969923D6 /* Pods-HFCrashReporter_Tests.debug.xcconfig */,
-				76203BAFAA00DEC60401CC1899739F94 /* Pods-HFCrashReporter_Tests.release.xcconfig */,
+				FC992BBB35C078C0EA7EC773F733F75E /* HFCrashReporter.podspec */,
+				AA13B896FE0E768AFEB7FAFF0734C426 /* LICENSE */,
+				F74EF9E50CCFA9DEF28FE7CB730F70C7 /* README.md */,
 			);
-			name = "Pods-HFCrashReporter_Tests";
-			path = "Target Support Files/Pods-HFCrashReporter_Tests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		458271C100DE058E2D717075FC65BE25 /* Development Pods */ = {
+		8566D0FC992A3605539F0D153853DF89 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B34C1A49E17166BD0384D05EE4EAEFF0 /* HFCrashReporter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5417CE4CA4DECB8365FC5FA82ABC5B97 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBAAAD1714D7D16DD5992FB943677211 /* Pods-HFCrashReporter_Example */,
-				3AFCF84496026212791BF4752AED1F6F /* Pods-HFCrashReporter_Tests */,
+				317B20A063A445C6F5C7C576CB4C06C5 /* Pods-HFCrashReporter_Example */,
+				F32A7C23BE199292B2F92EC5A32BD1BE /* Pods-HFCrashReporter_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ACFD6CBC56545D9E2765E1D03918F4DF /* Support Files */ = {
+		B779EB2D2B240326820A5A1D3C90D609 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F98F1F1778E43F906D13444582E84E3 /* HFCrashReporter-xcframeworks.sh */,
-				0577A5DF12D34B8316E4C5C30C06FAF9 /* HFCrashReporter.debug.xcconfig */,
-				C72E2EB294B20EDA70D627A233ECB3A8 /* HFCrashReporter.release.xcconfig */,
+				DFDBC3A8C62707F6954C4050853DDF1E /* HFCrashReporter.xcframework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HFCrashReporter";
-			sourceTree = "<group>";
-		};
-		B34C1A49E17166BD0384D05EE4EAEFF0 /* HFCrashReporter */ = {
-			isa = PBXGroup;
-			children = (
-				02332AB137783B4D44CB5C7D150E0CE8 /* Frameworks */,
-				B5FBFFFBA8E5552BC2F5ACB0FD01ED9F /* Pod */,
-				ACFD6CBC56545D9E2765E1D03918F4DF /* Support Files */,
-			);
-			name = HFCrashReporter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B5FBFFFBA8E5552BC2F5ACB0FD01ED9F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				9B97F3452C1585EB9CABC16FCD573224 /* HFCrashReporter.podspec */,
-				2E662602C9B99C3B1C2AC969FD96D255 /* LICENSE */,
-				9029672641F79DD82C973D577C0B83B3 /* README.md */,
-			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				458271C100DE058E2D717075FC65BE25 /* Development Pods */,
+				2F7AED6F99C6B3D3E3D465CCC35AD4A0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0E44AB0514CB74703E330210F72CFFB3 /* Products */,
-				5417CE4CA4DECB8365FC5FA82ABC5B97 /* Targets Support Files */,
+				48AF0CD29BE3D9F4481595B339E88E07 /* Products */,
+				8566D0FC992A3605539F0D153853DF89 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,21 +206,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EBAAAD1714D7D16DD5992FB943677211 /* Pods-HFCrashReporter_Example */ = {
+		EEC27EA05D5B8067FA8EBBEEC4345C1F /* HFCrashReporter */ = {
 			isa = PBXGroup;
 			children = (
-				290CD49553D9033116F8FD2C7C7B9D68 /* Pods-HFCrashReporter_Example.modulemap */,
-				ECCE1D2AFC6254A2B92652C57F18BF01 /* Pods-HFCrashReporter_Example-acknowledgements.markdown */,
-				CC4FA1007ACA61337E7D9AA00B70E32E /* Pods-HFCrashReporter_Example-acknowledgements.plist */,
-				85DF0CA4C0D153BB6802C5E94B1009C9 /* Pods-HFCrashReporter_Example-dummy.m */,
-				6420023DA26FD7BAEF863FFEF64FAF4E /* Pods-HFCrashReporter_Example-frameworks.sh */,
-				508643301C12838A0541959A413FB397 /* Pods-HFCrashReporter_Example-Info.plist */,
-				1ED67F67D9EE3693CCC238EE58E866BE /* Pods-HFCrashReporter_Example-umbrella.h */,
-				15A880B45AA3C09F2870E73CA086959F /* Pods-HFCrashReporter_Example.debug.xcconfig */,
-				2C268B71C7764119B2AD4A651BC779E8 /* Pods-HFCrashReporter_Example.release.xcconfig */,
+				1B25C452DED41B71839AD82E2985D1E2 /* PrivacyInfo.xcprivacy */,
+				B779EB2D2B240326820A5A1D3C90D609 /* Frameworks */,
+				57AA2D4CF7297C822D5107D36CFCF2B9 /* Pod */,
+				F51C1D6B9F241AE8F9B6F00F12269433 /* Support Files */,
 			);
-			name = "Pods-HFCrashReporter_Example";
-			path = "Target Support Files/Pods-HFCrashReporter_Example";
+			name = HFCrashReporter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F32A7C23BE199292B2F92EC5A32BD1BE /* Pods-HFCrashReporter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9738F6677F31B8ACC1F21AFD57083ABF /* Pods-HFCrashReporter_Tests.modulemap */,
+				ADB8B90A2839385F96D3EE7D06E18819 /* Pods-HFCrashReporter_Tests-acknowledgements.markdown */,
+				DB78D1EB7686FB0213C83424549028F2 /* Pods-HFCrashReporter_Tests-acknowledgements.plist */,
+				AF34378B047439F7EE6C5456AA664D5D /* Pods-HFCrashReporter_Tests-dummy.m */,
+				0E633EE51FF736833BF323C7C0DD7763 /* Pods-HFCrashReporter_Tests-Info.plist */,
+				EE05FA5F234494343A9D6466E77E8BB7 /* Pods-HFCrashReporter_Tests-umbrella.h */,
+				49B123241173C8EC1C68E98C9B16BCC1 /* Pods-HFCrashReporter_Tests.debug.xcconfig */,
+				214CD0EBA39D0D604C085CF65927F78C /* Pods-HFCrashReporter_Tests.release.xcconfig */,
+			);
+			name = "Pods-HFCrashReporter_Tests";
+			path = "Target Support Files/Pods-HFCrashReporter_Tests";
+			sourceTree = "<group>";
+		};
+		F51C1D6B9F241AE8F9B6F00F12269433 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21D977AE073C9F9820451A27421F91A /* HFCrashReporter-xcframeworks.sh */,
+				084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */,
+				A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */,
+				EB35AFF22CE386485DC0913BB47D04CF /* ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HFCrashReporter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +268,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4D906390974E616FD956F915CF345834 /* HFCrashReporter-HFCrashReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24504562332522AAF06711D772E354AF /* Build configuration list for PBXNativeTarget "HFCrashReporter-HFCrashReporter" */;
+			buildPhases = (
+				1029D2D1469DC3E915B1F5293ECBF301 /* Sources */,
+				E61DB185C2BDB538A6F2706B85EED1CF /* Frameworks */,
+				7FC2BF7E4D03B10A7110B39BF9B66152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HFCrashReporter-HFCrashReporter";
+			productName = HFCrashReporter;
+			productReference = AC18B553B6D75FF8C0D252A3553E4748 /* HFCrashReporter-HFCrashReporter */;
+			productType = "com.apple.product-type.bundle";
+		};
 		F9D739E0E589762DF3F22F251C679AE8 /* Pods-HFCrashReporter_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1340896CAF05ABBC4AF53ACE2F72F469 /* Build configuration list for PBXNativeTarget "Pods-HFCrashReporter_Tests" */;
@@ -256,7 +297,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8AD5370AA22BA7D9902851379A55B48A /* PBXTargetDependency */,
+				EE4AC8957909308687BEA625B357C6CE /* PBXTargetDependency */,
 			);
 			name = "Pods-HFCrashReporter_Tests";
 			productName = Pods_HFCrashReporter_Tests;
@@ -275,7 +316,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				3ED956627F84AF1118736048F0F304A4 /* PBXTargetDependency */,
+				80C6136110C102489BA9EFA8779EE840 /* PBXTargetDependency */,
 			);
 			name = "Pods-HFCrashReporter_Example";
 			productName = Pods_HFCrashReporter_Example;
@@ -302,11 +343,12 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0E44AB0514CB74703E330210F72CFFB3 /* Products */;
+			productRefGroup = 48AF0CD29BE3D9F4481595B339E88E07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AD19FBA3D0F6CD629422BF5F10C331DD /* HFCrashReporter */,
+				4D906390974E616FD956F915CF345834 /* HFCrashReporter-HFCrashReporter */,
 				FC1A51D59324752F6BF2FD04811DD748 /* Pods-HFCrashReporter_Example */,
 				F9D739E0E589762DF3F22F251C679AE8 /* Pods-HFCrashReporter_Tests */,
 			);
@@ -314,6 +356,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7FC2BF7E4D03B10A7110B39BF9B66152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A97449D498887F1977EA290F819A38 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90CCEC06772C7D9100551BB76010874D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,7 +381,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		796550B423CB8C928AFBEE3A38D53CED /* [CP] Copy XCFrameworks */ = {
+		26DD280F079AA183BA42D79F64B33AC4 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,6 +402,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1029D2D1469DC3E915B1F5293ECBF301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		194EC3CD6B1609AB47AFFAF59457061F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,24 +428,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3ED956627F84AF1118736048F0F304A4 /* PBXTargetDependency */ = {
+		80C6136110C102489BA9EFA8779EE840 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HFCrashReporter;
 			target = AD19FBA3D0F6CD629422BF5F10C331DD /* HFCrashReporter */;
-			targetProxy = 06A427A5A5FA1597657BAE3D0EB041A4 /* PBXContainerItemProxy */;
+			targetProxy = 16340E678EED0F39F48853228B5EE25E /* PBXContainerItemProxy */;
 		};
-		8AD5370AA22BA7D9902851379A55B48A /* PBXTargetDependency */ = {
+		A6FA53CEF505BB4C3193C7A777A4DCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HFCrashReporter-HFCrashReporter";
+			target = 4D906390974E616FD956F915CF345834 /* HFCrashReporter-HFCrashReporter */;
+			targetProxy = F9D5B57A92D6AAFB4E15BE347230BC7C /* PBXContainerItemProxy */;
+		};
+		EE4AC8957909308687BEA625B357C6CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HFCrashReporter_Example";
 			target = FC1A51D59324752F6BF2FD04811DD748 /* Pods-HFCrashReporter_Example */;
-			targetProxy = 61E4C7466E36868AA794C6093A8B163B /* PBXContainerItemProxy */;
+			targetProxy = 259CE0BA1D51F88AE932060142178547 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		17466AE662C85EA4732235A9B85E9611 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15A880B45AA3C09F2870E73CA086959F /* Pods-HFCrashReporter_Example.debug.xcconfig */;
+			baseConfigurationReference = 4E7F201B5876D32CCFACB7255EAB6BA5 /* Pods-HFCrashReporter_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -488,25 +551,49 @@
 			};
 			name = Debug;
 		};
-		3B769D8ABDC8908940F69EE7B88FFAC1 /* Release */ = {
+		40559A310D721812A896164A0664F9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C72E2EB294B20EDA70D627A233ECB3A8 /* HFCrashReporter.release.xcconfig */;
+			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
+				DEVELOPMENT_TEAM = BX7JL8KH5T;
+				IBSC_MODULE = HFCrashReporter;
+				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = HFCrashReporter;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
+		42D589CDC38B6A82EF65562D3C859427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
+				DEVELOPMENT_TEAM = BX7JL8KH5T;
+				IBSC_MODULE = HFCrashReporter;
+				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HFCrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		5752DE70801DAA1BAB57DABC10C177E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C268B71C7764119B2AD4A651BC779E8 /* Pods-HFCrashReporter_Example.release.xcconfig */;
+			baseConfigurationReference = BFDB78C6CE3E35566FA7133D7DE20E32 /* Pods-HFCrashReporter_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -605,7 +692,7 @@
 		};
 		7A10A1F8AF243676118BBB3B768CD481 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E592556600AC9D38F110F06969923D6 /* Pods-HFCrashReporter_Tests.debug.xcconfig */;
+			baseConfigurationReference = 49B123241173C8EC1C68E98C9B16BCC1 /* Pods-HFCrashReporter_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -641,7 +728,7 @@
 		};
 		A25392E907F354F888442874884484C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76203BAFAA00DEC60401CC1899739F94 /* Pods-HFCrashReporter_Tests.release.xcconfig */;
+			baseConfigurationReference = 214CD0EBA39D0D604C085CF65927F78C /* Pods-HFCrashReporter_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -676,9 +763,25 @@
 			};
 			name = Release;
 		};
-		F1541182DD49C68F0B65609790C27F08 /* Debug */ = {
+		B7E18AB959C2073B44D5358DD5CCA8CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0577A5DF12D34B8316E4C5C30C06FAF9 /* HFCrashReporter.debug.xcconfig */;
+			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF631724C755E4A26B5138EF7BF16273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -712,6 +815,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		24504562332522AAF06711D772E354AF /* Build configuration list for PBXNativeTarget "HFCrashReporter-HFCrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D589CDC38B6A82EF65562D3C859427 /* Debug */,
+				40559A310D721812A896164A0664F9F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -721,11 +833,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9754D6281763BD2C60D6DDEACCB65A92 /* Build configuration list for PBXAggregateTarget "HFCrashReporter" */ = {
+		774B9FF748C894E827AD3F1359A94BD2 /* Build configuration list for PBXAggregateTarget "HFCrashReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1541182DD49C68F0B65609790C27F08 /* Debug */,
-				3B769D8ABDC8908940F69EE7B88FFAC1 /* Release */,
+				DF631724C755E4A26B5138EF7BF16273 /* Debug */,
+				B7E18AB959C2073B44D5358DD5CCA8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFCrashReporter'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = '崩溃日志收集显示上传'
   s.description      = <<-DESC
   崩溃日志收集显示上传
@@ -24,4 +24,8 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig   = { "VALID_ARCHS" => "arm64 armv7 x86_64", "DEFINES_MODULE" => "YES" }
   s.user_target_xcconfig  = { "VALID_ARCHS" => "arm64 armv7 x86_64", "DEFINES_MODULE" => "YES" }
   s.vendored_frameworks = 'HFCrashReporter/Classes/HFCrashReporter.xcframework'
+  
+  s.resource_bundles = {
+      'HFCrashReporter' => ['HFCrashReporter/Assets/*']
+  }
 end

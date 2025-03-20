@@ -213,6 +213,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				A64E491FF582A467E0428E5A /* [CP] Embed Pods Frameworks */,
+				1AEE0C743B6ECB9344BC1E0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +304,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1AEE0C743B6ECB9344BC1E0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HFCrashReporter_Example/Pods-HFCrashReporter_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HFCrashReporter/HFCrashReporter.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HFCrashReporter.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HFCrashReporter_Example/Pods-HFCrashReporter_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3CFB45EFFC271512A40BC712 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
