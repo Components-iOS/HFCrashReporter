@@ -1,6 +1,6 @@
 {
   "name": "HFCrashReporter",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "summary": "崩溃日志收集显示上传",
   "description": "崩溃日志收集显示上传",
   "homepage": "https://github.com/Components-iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Components-iOS/HFCrashReporter.git",
-    "tag": "0.1.4"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": null

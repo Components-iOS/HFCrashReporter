@@ -43,13 +43,13 @@
 - (void)NSArray_Test_InstanceArray {
     NSString *nilStr = nil;
     NSArray *array = @[@"liuhongfei", nilStr, @"iOSDeveloper"];
-    NSLog(@"%@",array);
+    NSLog(@"%@", array);
 }
 
 - (void)NSArray_Test_ObjectAtIndex {
     NSArray *arr = @[@"liuhongfei", @"iOS_Dev"];
     NSObject *object = arr[100];
-    NSLog(@"object = %@",object);
+    NSLog(@"object = %@", object);
 }
 
 - (void)NSArray_Test_objectsAtIndexes {
@@ -80,7 +80,7 @@
     NSMutableArray *array = @[@"liuhongfei"].mutableCopy;
     NSObject *object = array[2];
     // NSObject *object = [array objectAtIndex:20];
-    NSLog(@"object = %@",object);
+    NSLog(@"object = %@", object);
 }
 
 - (void)NSMutableArray_Test_SetObjectAtIndex {
@@ -123,7 +123,7 @@
                            @"name" : @"liuhongfei",
                            @"age" : nilStr
                            };
-    NSLog(@"%@",dict);
+    NSLog(@"%@", dict);
 }
 
 #pragma mark - NSMutableDictionary_Test
@@ -133,14 +133,14 @@
                                    }.mutableCopy;
     NSString *ageKey = nil;
     dict[ageKey] = @(25);
-    NSLog(@"%@",dict);
+    NSLog(@"%@", dict);
 }
 
 - (void)NSMutableDictionary_Test_SetObjectForKey_2 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     NSString *ageKey = nil;
     [dict setObject:@(25) forKey:ageKey];
-    NSLog(@"%@",dict);
+    NSLog(@"%@", dict);
 }
 
 - (void)NSMutableDictionary_Test_RemoveObjectForKey {
@@ -152,7 +152,7 @@
     NSString *key = nil;
     [dict removeObjectForKey:key];
     
-    NSLog(@"%@",dict);
+    NSLog(@"%@", dict);
 }
 
 #pragma mark - NSString_Test
@@ -160,21 +160,21 @@
     NSString *str = @"liuhongfei";
     
     unichar characteristic = [str characterAtIndex:100];
-    NSLog(@"--%c--",characteristic);
+    NSLog(@"--%c--", characteristic);
 }
 
 - (void)NSString_Test_SubstringFromIndex {
     NSString *str = @"liuhongfei";
     
     NSString *subStr = [str substringFromIndex:100];
-    NSLog(@"%@",subStr);
+    NSLog(@"%@", subStr);
 }
 
 - (void)NSString_Test_SubstringToIndex {
     NSString *str = @"liuhongfei";
     
     NSString *subStr = [str substringToIndex:100];
-    NSLog(@"%@",subStr);
+    NSLog(@"%@", subStr);
 }
 
 - (void)NSString_Test_SubstringWithRange {
@@ -182,7 +182,7 @@
     
     NSRange range = NSMakeRange(0, 100);
     NSString *subStr = [str substringWithRange:range];
-    NSLog(@"%@",subStr);
+    NSLog(@"%@", subStr);
 }
 
 - (void)NSString_Test_StringByReplacingOccurrencesOfString {
@@ -190,7 +190,7 @@
     
     NSString *nilStr = nil;
     str = [str stringByReplacingOccurrencesOfString:nilStr withString:nilStr];
-    NSLog(@"%@",str);
+    NSLog(@"%@", str);
 }
 
 - (void)NSString_Test_StringByReplacingOccurrencesOfStringRange {
@@ -198,7 +198,7 @@
     
     NSRange range = NSMakeRange(0, 1000);
     str = [str stringByReplacingOccurrencesOfString:@"liu" withString:@"" options:NSCaseInsensitiveSearch range:range];
-    NSLog(@"%@",str);
+    NSLog(@"%@", str);
 }
 
 - (void)NSString_Test_stringByReplacingCharactersInRangeWithString {
@@ -206,7 +206,7 @@
     
     NSRange range = NSMakeRange(0, 1000);
     str = [str stringByReplacingCharactersInRange:range withString:@"lhf"];
-    NSLog(@"%@",str);
+    NSLog(@"%@", str);
 }
 
 #pragma mark - NSMutableString_Test
@@ -231,13 +231,13 @@
 - (void)NSAttributedString_Test_InitWithString {
     NSString *str = nil;
     NSAttributedString *attributeStr = [[NSAttributedString alloc] initWithString:str];
-    NSLog(@"%@",attributeStr);
+    NSLog(@"%@", attributeStr);
 }
 
 - (void)NSAttributedString_Test_InitWithAttributedString {
     NSAttributedString *nilAttributedStr = nil;
     NSAttributedString *attributedStr = [[NSAttributedString alloc] initWithAttributedString:nilAttributedStr];
-    NSLog(@"%@",attributedStr);
+    NSLog(@"%@", attributedStr);
 }
 
 - (void)NSAttributedString_Test_InitWithStringAttributes {
@@ -246,14 +246,14 @@
                            };
     NSString *nilStr = nil;
     NSAttributedString *attributedStr = [[NSAttributedString alloc] initWithString:nilStr attributes:attributes];
-    NSLog(@"%@",attributedStr);
+    NSLog(@"%@", attributedStr);
 }
 
 #pragma mark - NSMutableAttributedString_Test
 - (void)NSMutableAttributedString_Test_InitWithString {
     NSString *nilStr = nil;
     NSMutableAttributedString *attrStrM = [[NSMutableAttributedString alloc] initWithString:nilStr];
-    NSLog(@"%@",attrStrM);
+    NSLog(@"%@", attrStrM);
 }
 
 - (void)NSMutableAttributedString_Test_InitWithStringAttributes {
@@ -262,7 +262,7 @@
                                  };
     NSString *nilStr = nil;
     NSMutableAttributedString *attrStrM = [[NSMutableAttributedString alloc] initWithString:nilStr attributes:attributes];
-    NSLog(@"%@",attrStrM);
+    NSLog(@"%@", attrStrM);
 }
 
 #pragma mark - KVC
