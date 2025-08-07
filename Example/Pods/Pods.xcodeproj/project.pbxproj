@@ -556,10 +556,7 @@
 			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGN_IDENTITY = "Apple Distribution";
-				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
-				DEVELOPMENT_TEAM = BX7JL8KH5T;
 				IBSC_MODULE = HFCrashReporter;
 				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -576,10 +573,7 @@
 			baseConfigurationReference = 084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
-				DEVELOPMENT_TEAM = BX7JL8KH5T;
 				IBSC_MODULE = HFCrashReporter;
 				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

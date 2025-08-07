@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFCrashReporter'
-  s.version          = '1.0.0'
+  s.version          = '1.23.35'
   s.summary          = '崩溃日志收集显示上传'
   s.description      = <<-DESC
   崩溃日志收集显示上传
