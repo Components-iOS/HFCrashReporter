@@ -21,6 +21,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    // pod trunk push HFCrashReporter.podspec --allow-warnings --skip-import-validation
+    
     HFCrashReporter *reporter = [HFCrashReporter defaultManager];
     reporter.isShowaActualFiles = YES;
     reporter.isReportEmail = YES;

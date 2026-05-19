@@ -551,40 +551,6 @@
 			};
 			name = Debug;
 		};
-		40559A310D721812A896164A0664F9F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
-				IBSC_MODULE = HFCrashReporter;
-				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = HFCrashReporter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		42D589CDC38B6A82EF65562D3C859427 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
-				IBSC_MODULE = HFCrashReporter;
-				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = HFCrashReporter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		5752DE70801DAA1BAB57DABC10C177E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFDB78C6CE3E35566FA7133D7DE20E32 /* Pods-HFCrashReporter_Example.release.xcconfig */;
@@ -720,6 +686,39 @@
 			};
 			name = Debug;
 		};
+		847987A8928AEA7730A61334E0277D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899F3F12E97829289296A306A5850FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		A25392E907F354F888442874884484C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 214CD0EBA39D0D604C085CF65927F78C /* Pods-HFCrashReporter_Tests.release.xcconfig */;
@@ -757,36 +756,39 @@
 			};
 			name = Release;
 		};
-		B7E18AB959C2073B44D5358DD5CCA8CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DF631724C755E4A26B5138EF7BF16273 /* Debug */ = {
+		DAFE3D9B8A0D3A98E3A4779ACFAEABAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 084EB0C44867C898BD91168E21A2C608 /* HFCrashReporter.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
+				IBSC_MODULE = HFCrashReporter;
+				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = HFCrashReporter;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		F6D2FDBB3FCDEF70B49627887F2D3C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A01F3C903573D59950061ED5402F19 /* HFCrashReporter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HFCrashReporter";
+				IBSC_MODULE = HFCrashReporter;
+				INFOPLIST_FILE = "Target Support Files/HFCrashReporter/ResourceBundle-HFCrashReporter-HFCrashReporter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = HFCrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -812,8 +814,8 @@
 		24504562332522AAF06711D772E354AF /* Build configuration list for PBXNativeTarget "HFCrashReporter-HFCrashReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42D589CDC38B6A82EF65562D3C859427 /* Debug */,
-				40559A310D721812A896164A0664F9F1 /* Release */,
+				DAFE3D9B8A0D3A98E3A4779ACFAEABAE /* Debug */,
+				F6D2FDBB3FCDEF70B49627887F2D3C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -830,8 +832,8 @@
 		774B9FF748C894E827AD3F1359A94BD2 /* Build configuration list for PBXAggregateTarget "HFCrashReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF631724C755E4A26B5138EF7BF16273 /* Debug */,
-				B7E18AB959C2073B44D5358DD5CCA8CB /* Release */,
+				847987A8928AEA7730A61334E0277D10 /* Debug */,
+				899F3F12E97829289296A306A5850FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
